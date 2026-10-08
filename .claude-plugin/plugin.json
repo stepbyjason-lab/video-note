@@ -1,0 +1,10 @@
+{
+  "name": "video-note",
+  "version": "0.1.0",
+  "description": "Turn any video into a section-by-section study-notes markdown file with embedded screenshots and a timestamped transcript.",
+  "homepage": "https://github.com/stepbyjason-lab/video-note",
+  "license": "MIT",
+  "keywords": ["video", "lecture", "tutorial", "notes", "transcript", "ffmpeg", "yt-dlp"],
+  "skills": "./",
+  "hooks": "./hooks/hooks.json"
+}

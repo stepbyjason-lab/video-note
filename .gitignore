@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Build
+dist/
+*.skill
+
+# OS
+.DS_Store
+
+# claude-watch-runtime data should never be committed
+library/
+.env
+.env.*
+!.env.example
+
+# Session tooling artifacts
+.madi/
+uv.lock
+
+# Private working notes (never published). .handoff/ and memory/ are tracked here so development
+# history can be traced later; .gitattributes export-ignore keeps them out of the public archive.

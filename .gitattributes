@@ -1,0 +1,15 @@
+tests/fixtures/*.mp4 filter=lfs diff=lfs merge=lfs -text
+tests/fixtures/*.mov filter=lfs diff=lfs merge=lfs -text
+tests/fixtures/*.mkv filter=lfs diff=lfs merge=lfs -text
+* text=auto eol=lf
+
+# Public release archive (scripts/make-dist.*): development-only material stays in this repo.
+/.github export-ignore
+/.handoff export-ignore
+/memory export-ignore
+/docs export-ignore
+/tests export-ignore
+/conftest.py export-ignore
+/scripts/build-skill.sh export-ignore
+/scripts/make-dist.sh export-ignore
+/scripts/make-dist.ps1 export-ignore
